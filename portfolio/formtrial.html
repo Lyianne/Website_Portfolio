@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genshin Impact Form</title>
+  <style>
+   
+   body {
+      font-family: Georgia, serif;
+      background-color: #b3d2e6;
+      color: #3d4b6b;
+    }
+    
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 25px;
+      border-radius: 10px;
+      background-color: #e5f8ff;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    input[type="submit"] {
+      background-color: #8da4bc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+  <center><h1>Genshin Impact Form</h1></center>
+   
+    <div class="form-container">
+        <form action="Done.html">
+
+        <label for="fname"><b>UID account</b></label><br>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+
+        <label><b>Which Twin did you choose?</b></label><br><br>
+        <input type="radio" id="aether" name="twin" value="aether">
+        <label for="twiwnaether">Aether</label>
+        <img src="aetherpng.webp" alt="Aether" width="50">
+        <input type="radio" id="lumine" name="twin" value="lumine">
+        <label for="twinlumine">Lumine</label>
+        <img src="luminepng.webp" alt="Lumine" width="50">
+        <br><br>
+
+        <label for="main"><b>Your Main:</b></label><br>
+        <input type="text" id="main" name="main" value=""><br><br>
+        <label for="favchar">Favorite Character:</label><br>
+        <input type="text" id="favchar" name="favchar" value=""><br><br>
+
+        <label for="favele"><b>Favorite Element:</b></label>
+        <select id="element" name="element">
+            <option value="anemo">Anemo</option>
+            <option value="geo">Geo</option>
+            <option value="hydro">Hydro</option>
+            <option value="electro">Electro</option>
+            <option value="dendro">Dendro</option>
+            <option value="cryo">Cryo</option>
+            <option value="pyro">Pyro</option>
+        </select><br><br>
+
+            <label><b>What is/are your favorite nation/s?</b></label><br>
+            <input type="checkbox" id="mond" name="mond" value="Mondstadt">
+            <label for="mond">Mondstadt</label><br>
+            <input type="checkbox" id="liy" name="liy" value="Liyue">
+            <label for="liy">Liyue</label><br>
+            <input type="checkbox" id="Ina" name="Ina" value="Inazuma">
+            <label for="Ina">Inazuma</label><br>
+            <input type="checkbox" id="Sum" name="Sum" value="Sumeru">
+            <label for="Sum">Sumeru</label><br>
+            <input type="checkbox" id="Fon" name="Fon" value="Fontaine">
+            <label for="Fon">Fontaine</label><br>
+
+<br><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+  </div>
+</body>
+</html>
